@@ -90,6 +90,15 @@
 # TODO: range -> it generates the numbers within a certain range
 #  range(start , end + 1 , step)
 
-nums = list(range(1, 11))
-print(nums)
-print(type(nums))
+# nums = list(range(1, 11))
+# print(nums)
+# print(type(nums))
+
+# even = tuple(range(0,11,2))
+# print(even)
+
+# multiple_of_5 = list(range(0,51,5))
+# print(multiple_of_5)
+
+# rev_num = tuple(range(10,0,-1))
+# print(rev_num)
