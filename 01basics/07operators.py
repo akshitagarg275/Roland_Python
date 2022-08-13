@@ -5,6 +5,7 @@ binary operator -> It requires two operands
     -arithmetic 
     -assignment
     -relational
+    -logical
     -bitwise operator
 membership operator
 identity operator
@@ -45,6 +46,80 @@ num2 = 2
 # NOTE: modulus (%) is used to get the remainder
 # print(num1%num2)
 
-print(5 ** 2)
+# print(5 ** 2)
+
+# TODO: assignment operator '='
+
+a = 2
+
+# a = a + 3
+# a += 3
+
+# a = a * 5
+# a *= 5
+
+# print(a)
 
 
+# TODO: Relational operator
+'''
+It is also known as comparison operator
+It returs either True/False as the output
+> - greater than
+< - less than
+>= - greater than equal to
+<= - less than equal to
+
+If left hand side value is either greater/less than or equal to right hand side value 
+than it returns True
+
+== - equal to (It checks if two values are equal)
+!= - not equal to
+'''
+
+# print (5 > 3)
+# print(6 < 4)
+
+# print(5 >= 3)
+# print( 5 >= 5)
+
+# print( 6 <= 7)
+# print ( 6<=3)
+
+# print(5 == 5)
+# print (5 = 5)
+
+# print ( 5 != 5)
+
+
+# TODO: Logical Operator
+'''
+and -> If anyone input is False output will be False
+
+or -> If anyone input is True output will be True
+
+not -> It reverses the state 
+
+Falsy value -> False , None , '' , 0
+
+'''
+
+# print (5>3 and 4<3)
+# print (5>3 or 4<3)
+
+# print( not 0)
+
+# print(not -5)
+
+'''
+Login methods
+is_email
+is_google
+is_facebook
+'''
+
+is_email = True
+is_google = False
+is_facebook = False
+
+print(is_email or is_facebook or is_google)
