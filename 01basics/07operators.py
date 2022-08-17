@@ -122,4 +122,52 @@ is_email = True
 is_google = False
 is_facebook = False
 
-print(is_email or is_facebook or is_google)
+# print(is_email or is_facebook or is_google)
+
+
+# TODO: Bitwise operators
+'''
+these work on individual bits
+
+& -> bitwise and
+| -> bitwise or
+^ -> bitwise xor
+<< -> left shift -> It increases the bits
+>> -> right shift -> It decreases the bits
+
+'''
+
+n1 = 7
+# print(bin(n1))
+
+n2 = 10
+
+# print(n1 & n2)
+# print(n1 | n2)
+# print(n1 ^ n2)
+
+# print(5<<1)
+# print(5>>2)
+
+
+# TODO: Membership operator (in)
+# nums = [1,2,3,4,5]
+# print( 1 in nums)
+# print( 6 in nums)
+
+# print(11 not in nums)
+
+# name = "Harry"
+# print( 'H' in name)
+
+# TODO: Identity operator (is)
+# It checks if two variables are at same memory address or not
+
+a = 10
+# print(id(a))
+
+b = 10
+# print(id(b))
+
+# print(a is b)
+
