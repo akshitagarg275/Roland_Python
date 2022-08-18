@@ -171,3 +171,16 @@ b = 10
 
 # print(a is b)
 
+l1 = [1,2,3]
+print("id fo l1 is: ",id(l1))
+
+l2 = [1,2,3]
+print("id of l2 is : ",id(l2))
+
+print(l1 is l2)
+
+l3 = l1
+print("id of l3 is :",id(l3))
+
+print(l1 is l3)
+
