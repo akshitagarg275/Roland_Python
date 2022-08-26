@@ -103,21 +103,96 @@ condition than we use if elif
 #     print("It is a negative number")
 
 # TODO: Grading system
-marks = float(input("Enter the marks: "))
+# marks = float(input("Enter the marks: "))
 
-if marks > 90 and marks <= 100:
-    print("GRADE : A+")
-elif marks > 80 :
-    print("GRADE : A")
-elif marks >70:
-    print("GRADE: B+")
-elif marks > 60:
-    print("GRADE : C")
-elif marks > 50:
-    print("GRADE : D")
-elif marks >40:
-    print("GRADE : E")
-elif marks <=40 and marks>=0:
-    print("GRADE : F")
+# if marks > 90 and marks <= 100:
+#     print("GRADE : A+")
+# elif marks > 80 :
+#     print("GRADE : A")
+# elif marks >70:
+#     print("GRADE: B+")
+# elif marks > 60:
+#     print("GRADE : C")
+# elif marks > 50:
+#     print("GRADE : D")
+# elif marks >40:
+#     print("GRADE : E")
+# elif marks <=40 and marks>=0:
+#     print("GRADE : F")
+# else:
+#     print("Enter a valid number")
+
+
+
+# TODO: Feedback system 
+# It will rating between 1-5 and you have to provide a msg for each rating
+
+# rating = int(input("enter the rating: "))
+
+
+# if rating == 5:
+#     print("Awesome")
+# elif rating == 4:
+#     print("Good")
+# elif rating == 3 :
+#     print("Average")
+# elif rating == 2:
+#     print("need improvement")
+# elif rating == 1:
+#     print("Poor service")
+# else:
+#     print("Enter rating between 1-5")
+
+# TODO : these are independent from each other
+# if rating == 5:
+#     print("Awesome")
+
+# if rating == 4:
+#     print("Good")
+
+# if rating == 3 :
+#     print("Average")
+# else:
+#     print("Poor: It is linked with rating==3 if")
+
+
+
+
+
+# TODO: Nested if else
+'''
+if condition:
+    if condition:
+        // if statement
+    else:
+        // else statement
 else:
-    print("Enter a valid number")
+    if condition:
+        //if statement
+
+'''
+
+# TO make online purchase you must be logged in
+# have added some item in the cart
+# card details should correct
+
+is_loggedin = True
+is_cart = True
+is_card = True
+
+if is_loggedin:
+    if is_cart:
+        if is_card:
+            print("Order placed successfully")
+        else:
+            print("Order didn't placed, check card details")
+    else:
+        print("Cart is empty")
+else:
+    print("Please login")
+
+
+if is_loggedin and is_cart and is_card:
+    print("Order placed successfully")
+else:
+    print("Check the details")
