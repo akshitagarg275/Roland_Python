@@ -176,23 +176,70 @@ else:
 # have added some item in the cart
 # card details should correct
 
-is_loggedin = True
-is_cart = True
-is_card = True
+# is_loggedin = True
+# is_cart = True
+# is_card = True
 
-if is_loggedin:
-    if is_cart:
-        if is_card:
-            print("Order placed successfully")
-        else:
-            print("Order didn't placed, check card details")
+# if is_loggedin:
+#     if is_cart:
+#         if is_card:
+#             print("Order placed successfully")
+#         else:
+#             print("Order didn't placed, check card details")
+#     else:
+#         print("Cart is empty")
+# else:
+#     print("Please login")
+
+
+# if is_loggedin and is_cart and is_card:
+#     print("Order placed successfully")
+# else:
+#     print("Check the details")
+
+
+'''
+you want to logged in a website
+so there are three ways
+email
+gmail
+facebook
+'''
+
+is_email = False
+is_facebook = False
+is_gmail = True
+
+# if is_email :
+#     print("You are logged in via email")
+# elif is_facebook:
+#     print("You are logged in via facebook")
+# elif is_gmail:
+#     print("You are logged in via gmail")
+# else:
+#     print("Please")
+
+# if (is_email or is_facebook or is_gmail):
+#     print("You are logged in")
+# else:
+#     print("Please login")
+
+
+
+# TODO: WAP to calculate greatest among 3 nums
+
+num1=3
+num2=6
+num3=1
+
+
+if num1 > num2 :
+    if num1 > num3:
+        print("Num1 is greatest")
     else:
-        print("Cart is empty")
+        print("Num 3 is greatest")
 else:
-    print("Please login")
-
-
-if is_loggedin and is_cart and is_card:
-    print("Order placed successfully")
-else:
-    print("Check the details")
+    if num2 > num3:
+        print("Numm2 is greatest")
+    else:
+        print("Num3 is greatest")
