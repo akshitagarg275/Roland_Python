@@ -87,10 +87,27 @@ updation (re-initialization)
 
 '''
 for loops
-for loops are used on iterables(list, tuple , range, dictionary)
+for loops are used on iterables(list, tuple , string, range, dictionary)
 '''
 
-nums = [11,22,33,44,55,66,77]
+# nums = [11,22,33,44,55,66,77]
 
-for i in nums:
+# for i in nums:
+#     print(i)
+
+# name = "John Doe"
+
+# for n in name:
+#     print(n , end = '\n')
+
+
+# fruits = ("apple", "banana", "mango" , "guava")
+
+# for i in fruits:
+#     print(i)
+
+# for i in range(5):
+#     print(i)
+
+for i in range(1,6):
     print(i)
